@@ -1,0 +1,52 @@
+canvas{
+ 	margin: 0;
+      background-color: #7ed0f7;
+      background-image: linear-gradient( #7ed0f7,  #00aeff);
+      border: 5px solid #777;
+      display: block;
+      width: 99.5%;
+      height: 90%;
+}
+
+body{
+      margin: auto;
+      border: 2px solid black;
+      background-color: wheat;
+}
+
+#menybar{
+      background-image: radial-gradient(ellipse at top,#ffff66, transparent), radial-gradient(ellipse at bottom,#ffff66, transparent);;
+      width: 25%;
+      height: 40px;
+      text-align: center;
+      text-shadow: 2px 2px 2px black;
+      margin: auto;
+}
+      
+#information{
+      width: 800px;
+      position: absolute;
+      top: 100px;
+      left: 50%;
+      margin-left: -400px;
+      font-size: 50px;
+      color: red;
+      text-align: center;
+      text-shadow: 3px 3px 8px black;
+}
+
+#ball{
+      display: none;
+}
+
+#ball2{
+      display: none;
+}
+
+#mark{
+      display: none;
+}
+
+#city{
+      display: none;
+}

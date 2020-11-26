@@ -1,0 +1,9 @@
+General
+    Webbsite writen by Joachim Johnson
+
+    Anywone can use this codebase if the anywone finds this code useful.
+
+Codespecific things:
+    Moust of the game scale to any screen and grafich is scaling acording to internal graphics of the canvas element.
+
+    There is no copyrigted graphics in this current state

@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Javascript game - Angry Ball</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="Css/style.css" />
+    </head>
+
+    <body>
+        <div id="information"></div>
+        <canvas id="canvas" onclick="canvasonclick()"></canvas>
+        <div id="menybar">points</div>
+
+        <audio src="Assets/Sound/bounce.mp3"     preload="auto" id="audiobouncer">  </audio>
+        <audio src="Assets/Sound/hitground.mp3"  preload="auto" id="audiohitground"></audio>
+        <audio src="Assets/Sound/gameover.mp3"   preload="auto" id="gameover">      </audio>
+
+        <img src="Assets/Graphics/PlayerModels/64x64 dino.png"          id="ball" class="gamesprite" />
+        <img src="Assets/Graphics/PlayerModels/64x64 dinocrouch.png"    id="ball2" class="gamesprite" />
+        <img src="Assets/Graphics/Backgrounds/mark.jpg"                 id="mark" class="gamesprite" />
+        <img src="Assets/Graphics/Backgrounds/citybackground.jpg"       id="city" class="gamesprite" />
+        
+        <script src="Javascript/settingsParameters.js"></script>
+        <script src="Javascript/ResulutionManager.js"></script>
+        <script src="Javascript/Ball.js">             </script>
+        <script src="Javascript/Rectangle.js">        </script>
+        <script src="Javascript/ground.js">           </script>
+        <script src="Javascript/Block.js">            </script>
+        <script src="Javascript/pointhandler.js">     </script>
+        <script src="Javascript/game.js">             </script>
+    </body>
+</html>
